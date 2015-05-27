@@ -15,6 +15,8 @@
 ##mySQL.php  
 MySQLの利用  
   
+##更新
++スライド追加  
   
 ##License
 MIT License.

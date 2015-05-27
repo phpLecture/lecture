@@ -8,6 +8,7 @@
 //  Copyright (c) 2015 PHP Lecture. All rights reserved.
 //
 
+/*
 //配列
 $array = ["a", "b"];
 //配列の末尾に追加する
@@ -29,9 +30,21 @@ $array += ["C" => "c"];//一番簡単にかける(と思う)
 //$array = array_merge($array, ["C" => "c"]);
 
 echo $array["C"]."</br>"; 
+*/
 
+$arrays = [
+	[1,2],[3,4]
+];
+
+foreach ($arrays as $row1 => $array) {
+	foreach ($array as $row2 => $value) {
+		echo $value."</br>";
+	}
+}
+
+/*
 $array = [[["a" => "A", "A" => "a"], ["b" => "B", "B" => "b"]], [["c" => "C", "C" => "c"], ["d" => "D", "D" => "d"]], [["e" => "E", "E" => "e"], ["f" => "F", "F" => "f"]]];
 
 echo $array[1][0]["C"];//c
-
+*/
 ?>
